@@ -1,0 +1,14 @@
+lineage:
+  image: lineageos4microg/docker-lineage-cicd
+  container_name: lineage
+  volumes:
+    - ../src:/srv/src
+    - ../zips:/srv/zips
+    - ../logs:/srv/logs
+    - ../cache:/srv/ccache
+    - ../local_manifests:/srv/local_manifests
+  environment:
+    - BRANCH_NAME=lineage-18.1
+    - DEVICE_LIST=TBX704
+    - CCACHE_SIZE= 20G
+    - INCLUDE_PROPRIETARY=false
