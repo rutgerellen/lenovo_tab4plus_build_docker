@@ -2,7 +2,7 @@
 docker compose for lineage ci/cd based build.
 
 # Usage
-sync the repo.  Go to lineagedocker and execute docker-compose up (all of this on linux of course)
+sync the repo.  Go to lineagedocker and execute docker-compose up (all of this on linux/inside WSL of course)
 
 # details
 
