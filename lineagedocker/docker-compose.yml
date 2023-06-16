@@ -1,5 +1,6 @@
 version: '3'
 services:
+
   lineage:
     image: lineageos4microg/docker-lineage-cicd
     container_name: lineage
